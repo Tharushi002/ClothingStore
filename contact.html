@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Discover the latest trends in fashion for 
+        women and men at Velvet Vogue. Shop our wide selection of clothes, bags,
+        jewelry, and more. Elevate your style with our curated collections.">
+        <meta name="keywords" content="clothes, women, men, fashion, bags, jewelry, Velvet Vogue, latest trends, stylish clothing, accessories">
+        <meta name="author" content="Velvet Vogue">
+        <link rel="icon" href="images/logowhite.jpg" type="image/x-icon">
+        <!-- css -->
+        <link rel="stylesheet" href="Style/products.css">
+        <link rel="stylesheet" href="Style/main.css">
+        <link rel="stylesheet" href="Style/contact.css">
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <!-- icon -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <title>Velvet Vogue</title>
+    </head>
+
+<body>
+     <header class="container" id="header">
+        <div class="header_top">
+              <div class="header_social">
+                <a href="https://www.instagram.com" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.facebook.com/people" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://wa.me/201007738790" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </div>
+              <img src="images/logo_block.png" alt="page logo" id="logo">
+              <div class="header_actions">
+                <div id="display_login">
+                  <span id="user_name">Tharu</span>
+                  <a href="#" id="logout" title="Logout" onclick="logout();">
+                   <ion-icon name="log-out-outline"></ion-icon>
+                  </a>
+                </div>
+                <a href="login.html" title="Login" id="login_btn">
+                 <ion-icon name="person-circle-outline"></ion-icon>
+                </a>
+                <a href="#" class="icon-cart">
+                  <ion-icon name="cart-outline"></ion-icon>
+                  <span id="cart-counter">0</span>
+                </a>
+           </div>
+        </div>
+        <nav>
+            <menu>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+     
+    <div class="header-image ">
+        <img src="images/contact_img.jpg">
+        
+         
+     </div>
+   
+    <section class="contact-container">
+        <div class="contact-info">
+            <h3>GET IN TOUCH</h3>
+            <p>Also Contact with Social Media To Anytime</p>
+          
+            <p><i class="fas fa-map-marker-alt"></i> Online Store, Galle Road, Aluthgama, Sri Lanka</p>
+            <p><i class="fas fa-phone-alt"></i> +94760070588</p>
+            <p><i class="fas fa-envelope"></i> velvetvogue@gmail.com</p>
+          </div>
+          
+    
+        <div class="contact-form">
+          <h3>SEND A MESSAGE</h3>
+          <form>
+            <div class="name-fields">
+              <input type="text" placeholder="First name" required>
+              <input type="text" placeholder="Second Name" required>
+            </div>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+      </section>
+
+</body>
+</html>
