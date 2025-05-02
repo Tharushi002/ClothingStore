@@ -1,0 +1,97 @@
+/* Main container for orders */
+.orders-container {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Heading for Orders */
+  .orders-container h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the paragraph text */
+  .main p {
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Table styling */
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .orders-table th {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .orders-table td {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Order Status Styles */
+  .status {
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .status.pending {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .status.completed {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  /* Action Button Styles */
+  .action-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 768px) {
+    .orders-table th, .orders-table td {
+      padding: 8px;
+    }
+  
+    .orders-container {
+      padding: 15px;
+    }
+  }
+  
+  
